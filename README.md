@@ -7,7 +7,7 @@ I am working on a windows system.
 I tried installing many types and versions of cpp on this computer and they all had an issue and didnt want to work.
 I decided to default back to visual studio, and installed visual studio 2022.
 
-I then looked for a testing framework that did not require an expternal package manager of submodaling a git (such as google tests).
+I then looked for a testing framework that did not require an external package manager of submodaling a git (such as google tests).
 I found catch2.hpp as a single dependency and was very happy.
 
 Here is how to run this simple testing:
@@ -19,4 +19,4 @@ Here is how to run this simple testing:
      select test.runsettings located in test_project
 
 1. Clean and Build the solution
-1. Open test explorer and (hopefully) all the tests (3 tests) will appear there._
+1. Open test explorer and (hopefully) all the tests (6 tests) will appear there._
