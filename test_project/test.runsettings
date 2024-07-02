@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<TestAdapterPaths>
+		<Path>$(SolutionDir)packages\Catch2Adapter.2.0.0\tools</Path>
+	</TestAdapterPaths>
+	<TestAdapters>
+		<Adapter>Catch2Adapter</Adapter>
+		<ForceListContent>true</ForceListContent>
+	</TestAdapters>
+	
+  <!-- Adapter Specific sections -->
+  <Catch2Adapter>
+	  
+    <DllFilenameFilter>*.*</DllFilenameFilter><!-- Regex filter dll source -->
+    <DllRunner>${dllpath}\*.*</DllRunner>
+    <FilenameFilter>.*</FilenameFilter><!-- Regex filter exe source-->
+	  
+  </Catch2Adapter>
+
+</RunSettings>
